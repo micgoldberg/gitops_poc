@@ -82,8 +82,8 @@ resources:
   #   cpu: 100m
   #   memory: 128Mi
   requests:
-    cpu: 1
-    memory: 256Mi
+    cpu: 1.5
+    memory: 512i
 
 # This is to setup the liveness and readiness probes more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
 livenessProbe:
